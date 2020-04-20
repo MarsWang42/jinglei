@@ -3,7 +3,7 @@
 
 import re
 from collections import defaultdict
-from parser import word_parser
+from data_parser.parser import word_parser
 
 with open('zhaoshi.txt', 'r') as f:
     content = f.read().replace('\n', ' ');
